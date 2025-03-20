@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+}
+
+.user-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#user-avatar {
+  width: 100%;
+  max-width: 150px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin: 5px 0;
+}
+
+#user-posts .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.post-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-body {
+  color: #666;
+}
